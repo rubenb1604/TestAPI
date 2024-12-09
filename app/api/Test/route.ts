@@ -8,4 +8,5 @@ export async function GET(req: Request) {
     const randomIndex = Math.floor(Math.random() * items.length);
     const randomItem = items[randomIndex];
     return NextResponse.json({ item: randomItem });
+
 }
