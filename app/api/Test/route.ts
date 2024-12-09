@@ -9,4 +9,7 @@ export async function GET(req: Request) {
     const randomItem = items[randomIndex];
     return NextResponse.json({ item: randomItem });
 
+
+
+
 }
